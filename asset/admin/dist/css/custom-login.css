@@ -1,0 +1,42 @@
+/* custom-login.css */
+body.login-page{
+  background: linear-gradient(135deg,#0f1724 0%, #1e293b 100%);
+  background-attachment: fixed;
+  min-height:100vh;
+  color:#eef2f7;
+}
+
+/* Login box */
+.login-box{
+  background: rgba(168, 228, 111, 0.02);
+  border-radius:10px;
+  padding:24px;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+  border: 1px solid rgba(255,255,255,0.03);
+}
+
+/* Logo */
+.login-logo a{ color:#ffffff; font-weight:700; letter-spacing:1px; }
+
+/* Inputs */
+.form-control{
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #000000;
+  border-radius:4px;
+}
+
+/* Buttons */
+.btn-primary{
+  background: linear-gradient(135deg,#3b82f6 0%, #06b6d4 100%) !important;
+  border:none !important;
+  box-shadow: 0 6px 18px rgba(6,11,44,0.45);
+}
+
+/* Modal form inputs */
+.modal-content{ background: rgba(255,255,255,0.02); border-radius:8px; color:#fff; }
+
+/* Small responsive tweak */
+@media (max-width:480px){
+  .login-box{ padding:18px; margin:20px; }
+}

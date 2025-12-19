@@ -17,14 +17,15 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>/asset/admin/dist/css/AdminLTE.min.css">
     <!-- iCheck -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>/asset/admin/plugins/iCheck/square/blue.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/asset/admin/dist/css/custom-login.css">
   </head>
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="#"><b>ADMIN</b> Login</a>
+          <img style="width:80px;" src="<?php echo base_url(); ?>/asset/logo/Educorelogo.png" alt="Logo EduCore">
       </div><!-- /.login-logo -->
       <div class="login-box-body">
-        <p class="login-box-msg">Silahkan Login Pada Form dibawah ini</p>
+        <p class="login-box-msg">Login to EduCore</p>
         <?php 
           if ($this->input->post('email')!=''){
             echo "<div class='alert alert-warning'><center>$title</center></div>";
@@ -49,7 +50,7 @@
                   <input type="checkbox"> Remember Me
                 </label>
               </div>
-            </div><!-- /.col -->
+             </div><!-- /.col -->
             <div class="col-xs-4">
               <button name='submit' type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
             </div><!-- /.col -->
