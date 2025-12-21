@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
   <rss version="2.0"><channel> 
 				<title>RSS EduCore</title> 
-				<description>EduCore</description>
-				<link>http://localhost/EduCore</link> 
+				<description>EduCore is a centralized academic portal for managing school content, announcements, and administrative operations.</description>
+				<link>http://localhost/educore</link> 
 				<language>id-id</language></channel>
   	</rss>

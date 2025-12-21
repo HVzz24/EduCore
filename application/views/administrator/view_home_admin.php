@@ -61,8 +61,7 @@
       <h3 class='box-title'>Application Buttons</h3>
     </div>
     <div class='box-body'>
-      <p>Silahkan klik menu pilihan yang berada di sebelah kiri untuk mengelola konten website anda 
-          atau pilih ikon-ikon pada Control Panel di bawah ini : </p>
+      <p>Use the navigation menu on the left or select an option from the control panel below to manage website content: </p>
       <a href="<?php echo base_url(); ?>administrator/identitaswebsite" class='btn btn-app'><i class='fa fa-th'></i> Identitas</a>
       <a href="<?php echo base_url(); ?>administrator/menuwebsite" class='btn btn-app'><i class='fa fa-th-large'></i> Menu</a>
       <a href="<?php echo base_url(); ?>administrator/halamanbaru" class='btn btn-app'><i class='fa fa-file-text'></i> Halaman</a>

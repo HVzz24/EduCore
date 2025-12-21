@@ -65,9 +65,9 @@ if ($this->session->level==''){
         <?php if ($this->uri->segment(2)=='home'){ ?>
         <div class='alert alert-warning alert-dismissible fade in' role='alert' style='border-radius:0px; margin-bottom:0px'>
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            <span aria-hidden="true">X</span>
           </button>
-          <a href="http://localhost/educore/" style="margin-right:10px; text-decoration:none;">Haloo Selamat datang di halaman administrator, Saat ini anda menggunakan EduCore</a>
+          <a href="http://localhost/educore/" style="margin-right:10px; text-decoration:none;">Welcome to the administrative dashboard. EduCore is currently active</a>
           <a target='_BLANK' class="btn btn-default btn-sm" href="http://localhost/educore/" style="color: rgb(243, 156, 18);">EduCore</a>
         </div>
       <?php } ?>
