@@ -57,7 +57,7 @@
           </div>
         </form>
         <hr>
-        <a class='link' data-dismiss="modal" aria-hidden="true" data-toggle='modal' href='#lupapass' data-target='#lupapass'>Anda Lupa Password?</a>
+        <a class='link' data-dismiss="modal" aria-hidden="true" data-toggle='modal' href='#lupapass' data-target='#lupapass'>Forgot Password?</a>
 
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->

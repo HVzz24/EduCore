@@ -67,8 +67,8 @@ if ($this->session->level==''){
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <a href="http://educore.com/" style="margin-right:10px; text-decoration:none;">Haloo Selamat datang di halaman administrator, Saat ini anda menggunakan EduCore</a>
-          <a target='_BLANK' class="btn btn-default btn-sm" href="http://educore.com/" style="color: rgb(243, 156, 18);">EduCore</a>
+          <a href="http://localhost/educore/" style="margin-right:10px; text-decoration:none;">Haloo Selamat datang di halaman administrator, Saat ini anda menggunakan EduCore</a>
+          <a target='_BLANK' class="btn btn-default btn-sm" href="http://localhost/educore/" style="color: rgb(243, 156, 18);">EduCore</a>
         </div>
       <?php } ?>
 
