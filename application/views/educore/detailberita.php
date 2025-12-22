@@ -104,20 +104,36 @@
 					</div>
 				</div>
 				
-				<?php
-				$ia = $this->model_utama->view_ordering_limit('iklantengah','id_iklantengah','ASC',3,1)->row_array();
-				echo "<a href='$ia[url]' target='_blank'>";
-					$string = $ia['gambar'];
-					if ($ia['gambar'] != ''){
-						if(preg_match("/swf\z/i", $string)) {
-							echo "<embed style='margin-top:-10px' src='".base_url()."asset/foto_iklantengah/$ia[gambar]' width='100%' height=90px quality='high' type='application/x-shockwave-flash'>";
-						} else {
-							echo "<img style='margin-top:-10px; margin-bottom:5px' width='100%' src='".base_url()."asset/foto_iklantengah/$ia[gambar]' title='$ia[judul]' />";
-						}
-					}
-				echo "</a>";
-				?>
-				
+<?php
+$ia = $this->model_utama
+           ->view_ordering_limit('iklantengah','id_iklantengah','ASC',3,1)
+           ->row_array();
+
+if (is_array($ia) && !empty($ia['gambar'])) {
+
+    $url    = $ia['url'] ?? '#';
+    $judul  = $ia['judul'] ?? '';
+    $gambar = $ia['gambar'];
+
+    echo "<a href='{$url}' target='_blank'>";
+
+    if (preg_match("/swf$/i", $gambar)) {
+        echo "<embed 
+                src='".base_url()."asset/foto_iklantengah/{$gambar}' 
+                width='100%' 
+                height='90px'
+                type='application/x-shockwave-flash'>";
+    } else {
+        echo "<img 
+                src='".base_url()."asset/foto_iklantengah/{$gambar}' 
+                width='100%' 
+                style='margin-top:-10px; margin-bottom:5px'
+                title='{$judul}'>";
+    }
+
+    echo "</a>";
+}
+?>				
 				<div id="fb-root"></div>
 				<div id="viewcomment" class="block-title">
 					<a href="#writecomment" class="right">Write a Facebook Comment</a>
