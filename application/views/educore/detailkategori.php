@@ -38,7 +38,7 @@
 													</div>";
 											  }
 											}else{
-												echo "<center style='padding:20%'>Maaf Belum ada Artikel pada halaman ini.</center>";
+												echo "<center style='padding:20%'>Sorry, there are no articles on this page yet.</center>";
 											}
 										?>
 											<div class="pagination">
