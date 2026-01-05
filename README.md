@@ -4,18 +4,20 @@
 <img src="asset\images\Educore_logo.png" alt="EduCore" height="120" />
 
 # EduCore  
-**Government Website Content Management System**
+**School Website Content Management System**
 
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Platform](https://img.shields.io/badge/platform-government-blue)
 ![PHP](https://img.shields.io/badge/PHP-7.x+-8892BF)
 ![Framework](https://img.shields.io/badge/Framework-CodeIgniter-red)
-![License]()
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)
 ![Last Commit](https://img.shields.io/github/last-commit/HVzz24/EduCore)
 
 
-EduCore is a Content Management System (CMS) built with CodeIgniter 3, designed for educational or news-oriented websites. It provides a simple and effective way to manage your website's content.
+EduCore is developed using PHP with the CodeIgniter framework and follows a modular MVC architecture. The system supports PHP versions 5.6 to 7.4, making it suitable for deployment on both legacy and modern server environments.
+
+The frontend is designed with a responsive layout to ensure usability across desktop and mobile devices. The backend provides an administrative interface for website configuration, content management, and news publishing.
 
 ---
 </div>
@@ -50,35 +52,18 @@ EduCore is a Content Management System (CMS) built with CodeIgniter 3, designed 
 
 ## Showcase
 
-Here are some suggestions for what you can showcase with screenshots to give a visual overview of the project:
+Here are some visual overview of the project:
 
 -   **Homepage:**
-    -   **Description:** The main landing page of your website, giving the first impression to your visitors. It should highlight the latest news, events, and other important information.
-    -   **Screenshot:** `[Your Homepage Screenshot]`
 
--   **News/Article Page:**
-    -   **Description:** A view of a single news article, showing the title, content, author, and date.
-    -   **Screenshot:** `[Your Article Page Screenshot]`
-
--   **Photo Album/Gallery:**
-    -   **Description:** The gallery page, displaying a collection of photos in an album.
-    -   **Screenshot:** `[Your Gallery Screenshot]`
-
--   **Events/Agenda Page:**
-    -   **Description:** A list of upcoming events, with dates and brief descriptions.
-    -   **Screenshot:** `[Your Events Page Screenshot]`
-
+    <video controls width="100%"> <source src="asset/images/Homepage.mp4" type="video/mp4"></video>
+    
 -   **Admin Panel Dashboard:**
-    -   **Description:** The main dashboard of the administrator panel, showing statistics and quick links to different management sections.
-        - **Screenshot:** `[Your Admin Dashboard Screenshot]`
+   
+   <video controls width="100%"> <source src="asset\images\adminpage.mp4" type="video/mp4"></video>
+        
     
-    -   **Admin - Add New Article:**
-        -   **Description:** The form used to create or edit a news article in the admin panel, showcasing the rich text editor and other fields.
-        -   **Screenshot:** `[Your Add Article Screenshot]`
-    
-    
-    
-    ## Technical Stack
+## Technical Stack
 
 - **Backend:** PHP
 - **Framework:** CodeIgniter 3
@@ -98,7 +83,7 @@ Here are some suggestions for what you can showcase with screenshots to give a v
 
 3.  **Database:**
     - Create a new MySQL database named `educore`.
-    - **Note:** A database schema file (`.sql` dump) is not included in the project. You will need to manually create the database tables based on the application's models and controllers.
+    - **Note:** A database schema file (`educore.sql`)
 
 4.  **Configuration:**
     - **Database:** Open `application/config/database.php` and set your database connection details (hostname, username, password).
@@ -109,11 +94,15 @@ Here are some suggestions for what you can showcase with screenshots to give a v
 ## Running the Application
 
 - Access the application by navigating to your configured `base_url`.
-- The administrator panel is located at `/administrator`.
+- The administrator panel is located at `base_url/administrator`.
 
 ### Admin Credentials
 
-- To log in to the admin panel, you will need to create a user in the database.
+- To log in to the admin panel, you will need to create a user in the database or use 
+```
+Username : Admin
+Password : admin
+```
 - The password must be hashed using `sha512(md5($password))`.
 
 ---
