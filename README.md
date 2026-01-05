@@ -54,13 +54,10 @@ The frontend is designed with a responsive layout to ensure usability across des
 
 Here are some visual overview of the project:
 
--   **Homepage:**
+-   **Homepage Demo:**   [View demo video](asset/images/Homepage.mp4)
 
-    <video controls width="100%"> <source src="asset/images/Homepage.mp4" type="video/mp4"></video>
-    
 -   **Admin Panel Dashboard:**
-   
-   <video controls width="100%"> <source src="asset\images\adminpage.mp4" type="video/mp4"></video>
+  [View demo video](asset/images/adminpage.mp4)
         
     
 ## Technical Stack
