@@ -73,7 +73,7 @@ Here are some visual overview of the project:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/EduCore.git
+    git clone https://github.com/HVzz24/EduCore.git
     ```
 
 2.  **Environment:**
