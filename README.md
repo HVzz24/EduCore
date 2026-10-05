@@ -58,7 +58,9 @@ Here are some visual overview of the project:
 
 -   **Admin Panel Dashboard:**
   [View demo video](asset/images/adminpage.mp4)
-        
+
+-   **Live App demo:**
+  [Coming soon]      
     
 ## Technical Stack
 
